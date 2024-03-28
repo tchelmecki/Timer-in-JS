@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.073);
+}
+.container{
+    text-align: center;
+    padding: 0 3rem 3rem 3rem;
+    font-size: 4rem;
+    font-family:monospace;
+}
+.elapsed-time{
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.612);
+    font-weight: bold;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.612);
+    font-size: 3rem;
+}
+.h1{
+    font-weight: bold;
+    font-size: 6rem;
+}
+.meantime{
+    text-align: left;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 4px dotted black;
+    display: flex;
+
+}
+.meantime-button{
+    padding: 2rem;
+    width: 80px;
+    background-color: rgb(169, 169, 169);
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: all ease .5s;
+    border: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+
+}
+.meantime-list{
+    text-align: left;
+    margin-left: 4rem;
+}
+
+
+
+.start{
+    background-color: rgb(7, 195, 7);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    transition: all ease .5s;
+}
+.stop{
+    background-color: rgb(254, 23, 23);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    transition: all ease .5s;
+
+}
+.reset{
+    background-color: rgb(73, 103, 234);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    transition: all ease .5s;
+}
+.start:hover{
+    background-color: rgb(28, 148, 28);
+    cursor: pointer;
+}
+.stop:hover{
+    background-color: rgb(205, 17, 17);
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: rgb(65, 91, 206);
+    cursor: pointer;
+}
+.meantime-button:hover{
+    background-color: rgb(124, 124, 124);
+    cursor: pointer;
+}
+.start:active{
+    transform: scale(0.90);
+}
+.stop:active{
+    transform: scale(0.90);
+}
+.reset:active{
+    transform: scale(0.90);
+}
+.meantime-button:active{
+    transform: scale(0.90);
+}
+.top-panel{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    left: 0;
+  
+    background-color: rgb(236, 235, 235);
+}
